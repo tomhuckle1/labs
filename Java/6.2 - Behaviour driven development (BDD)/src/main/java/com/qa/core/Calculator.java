@@ -1,17 +1,17 @@
 package com.qa.core;
 
 public class Calculator {
-	private int sum;
+	private int answer;
 
 	public Calculator() {
-		this.sum = 0;
+		this.answer = 0;
 	}
 
 	public void addTwoNumber(int x, int y) {
-		sum = x + y;
+		this.answer = x + y;
 	}
 
 	public int getresult() {
-		return this.sum;
+		return this.answer;
 	}
 }

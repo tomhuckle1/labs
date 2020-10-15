@@ -5,6 +5,8 @@ public class TestFactory {
 	public static void main(String[] args) {
 		Account current = AccountFactory.getAccount("current",250,"My Current Account",100);
 		Account savings = AccountFactory.getAccount("SAVINGS",300,"My Savings Account", 0);
+		
+		// Initial values
 		System.out.println("Factory Current Account Details::"+current);
 		System.out.println("Factory Savings Account Details::"+savings);
 		

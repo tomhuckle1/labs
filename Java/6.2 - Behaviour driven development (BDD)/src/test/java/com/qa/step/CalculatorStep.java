@@ -15,8 +15,7 @@ public class CalculatorStep {
 		myCal=new Calculator();
 		System.out.println("Created");
 	}
-	
-	
+		
 	@When("I add $number1 and $number2")
 	public void AddCal(int x,int y) {
 		myCal.addTwoNumber(x, y);
